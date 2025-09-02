@@ -8,7 +8,7 @@ int main()
         bank.createAccount(0, 100);
         bank.createAccount(1, 100);
 
-        std::cout << "ID is : " <<  bank[5].getId() <<  ", Value is : " <<  bank[0].getValue()  << std::endl;
+        std::cout << "ID is : " <<  bank[0].getId() <<  ", Value is : " <<  bank[0].getValue()  << std::endl;
 
         bank.addLiquidity(-200);
         bank.addMoneyToAccount(400, 0);
